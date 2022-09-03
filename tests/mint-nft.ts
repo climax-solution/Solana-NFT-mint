@@ -1,6 +1,6 @@
 import * as anchor from "@project-serum/anchor";
 // ** Comment this to use solpg imported IDL **
-import { MintNFT } from "../target/types/mint_nft";
+import { MintNft } from "../target/types/mint_nft";
 
 
 describe("nft-marketplace", async () => {
@@ -19,7 +19,7 @@ describe("nft-marketplace", async () => {
   //   new anchor.web3.PublicKey("H2UJjAQTuVJYhaBhh6GD2KaprLBTp1vhP2aaHioya5NM"),
   // );
   // ** Comment this to use solpg imported IDL **
-  const program = anchor.workspace.MintNFT as anchor.Program<MintNFT>;
+  const program = anchor.workspace.MintNft as anchor.Program<MintNft>;
 
   const TOKEN_METADATA_PROGRAM_ID = new anchor.web3.PublicKey(
     "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
