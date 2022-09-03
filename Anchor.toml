@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+mint_nft = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "https://responsive-aged-sky.solana-devnet.discover.quiknode.pro/4ae54c61a328218445ab84a95375908eddfde6e4/"
+wallet = "/home/meng/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
